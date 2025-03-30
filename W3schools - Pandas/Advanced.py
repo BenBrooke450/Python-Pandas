@@ -19,6 +19,4 @@ df = pd.DataFrame(data)
 
 df['Salary Rank'] = (df['Salary'].rank())
 
-df['Salary Rank_dense'] = (df['Salary'].rank(method = "dense"))
-
-print(df)
+print(df["City"].value_counts())
