@@ -440,6 +440,248 @@ print(x)
 
 
 
+from collections import Counter
+
+color_series = pd.Series(["Red","Green","Blue","Yellow","Cyan","Magenta","Black","White","Orange","Purple"])
+vowels = ["o","u","a","i","e"]
+
+color_series.map(lambda c: sum([Counter(c.lower()).get(i, 0) for i in list('aeiou')]) >= 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+32. Write a Pandas program to find the positions of the values
+    neighboured by smaller values on both sides in a given series.
+"""
+
+
+df = pd.DataFrame({'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                   'Sales': [200, 220, 210, 300, 360, 310]})
+print((df))
+"""
+  Month  Sales
+0   Jan    200
+1   Feb    220
+2   Mar    250
+3   Apr    300
+4   May    280
+5   Jun    310
+"""
+
+df['Shifted_Sales_down'] = df['Sales'].shift(1)
+df['Shifted_Sales_up'] = df['Sales'].shift(-1)
+
+print(df)
+"""
+  Month  Sales  Shifted_Sales_down  Shifted_Sales_up
+0   Jan    200                 NaN             220.0
+1   Feb    220               200.0             250.0
+2   Mar    250               220.0             300.0
+3   Apr    300               250.0             280.0
+4   May    280               300.0             310.0
+5   Jun    310               280.0               NaN
+"""
+
+
+
+
+
+
+df["Biggest_above_and_below"] = np.where((df['Sales'].shift(1) < df['Sales'])
+                                         & (df['Sales'] > df['Sales'].shift(-1)),"Yes"," ")
+
+print(df)
+"""
+  Month  Sales  Shifted_Sales_down  Shifted_Sales_up Biggest_above_and_below
+0   Jan    200                 NaN             220.0                        
+1   Feb    220               200.0             210.0                     Yes
+2   Mar    210               220.0             300.0                        
+3   Apr    300               210.0             360.0                        
+4   May    360               300.0             310.0                     Yes
+5   Jun    310               360.0               NaN        
+"""
+
+
+
+
+
+df["Biggest_above_and_below"] = df["Biggest_above_and_below"].replace(" ","Replaced blank space")
+
+print(df)
+"""
+  Month  Sales  Shifted_Sales_down  Shifted_Sales_up Biggest_above_and_below
+0   Jan    200                 NaN             220.0    Replaced blank space
+1   Feb    220               200.0             210.0                     Yes
+2   Mar    210               220.0             300.0    Replaced blank space
+3   Apr    300               210.0             360.0    Replaced blank space
+4   May    360               300.0             310.0                     Yes
+5   Jun    310               360.0               NaN    Replaced blank space
+"""
+
+
+
+
+
+df.dropna(inplace=True)
+
+print(df)
+"""
+   Month  Sales  Shifted_Sales_down  Shifted_Sales_up Biggest_above_and_below
+1   Feb    220               200.0             210.0                     Yes
+2   Mar    210               220.0             300.0    Replaced blank space
+3   Apr    300               210.0             360.0    Replaced blank space
+4   May    360               300.0             310.0                     Yes
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+33. Write a Pandas program to replace missing white 
+    spaces in a given string with the most frequent character.
+"""
+
+df = pd.DataFrame({'Month': ['Jan', ' ', 'Mar', ' ', 'May', 'Jun'],
+                   'Sales': [2, 2, 2, 3, 4, 4]})
+print(df)
+"""
+  Month  Sales
+0   Jan      2
+1            2
+2   Mar      2
+3            3
+4   May      4
+5   Jun      4
+"""
+
+
+
+
+
+most_frequent_value = max(set(df["Sales"]), key=list(df["Sales"]).count)
+
+df["Month"] = df["Month"].replace(" ",most_frequent_value)
+
+print(df)
+"""
+  Month  Sales
+0   Jan      2
+1     2      2
+2   Mar      2
+3     2      3
+4   May      4
+5   Jun      4
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+37. Write a Pandas program to stack two given series vertically and horizontally.
+"""
+
+df_1 = pd.DataFrame({'Month': ['Jan', ' ', 'Mar', ' ', 'May', 'Jun'],
+                   'Sales': [2, 2, 2, 3, 4, 4]})
+
+df_2 = pd.DataFrame({'Month': ['Jan', ' ', 'Mar', ' ', 'May', 'Jun'],
+                   'Sales': [2, 2, 2, 3, 4, 4]})
+
+
+print(pd.concat([df_1, df_2], ignore_index=True, axis=0))
+"""
+   Month  Sales
+0    Jan      2
+1             2
+2    Mar      2
+3             3
+4    May      4
+5    Jun      4
+6    Jan      2
+7             2
+8    Mar      2
+9             3
+10   May      4
+11   Jun      4
+"""
+
+
+
+
+
+
+
+"""
+38. Write a Pandas program to check the equality of two given series.
+"""
+
+
+
+
+
+
+
+
+
+
+
+"""
+39. Write a Pandas program to find the index of the
+    first occurrence of the smallest and largest value of a given series.
+"""
+series_1 = pd.Series(range(2,16))
+
+df = pd.DataFrame(series_1, columns=['My_range_Name'])
+
+max_1 = max(series_1)
+min_1 = min(series_1)
+
+condition_max = df['My_range_Name'] == max_1
+
+condition_min = df['My_range_Name'] == min_1
+
+print(df.index[condition_max])
+#Index([13], dtype='int64')
+
+print(df.index[condition_min])
+#Index([0], dtype='int64')
+
+
+
+
+
+
+
 
 
 

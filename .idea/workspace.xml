@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="832c4612-e6c4-4e59-9363-3d0b357fdb63" name="Changes" comment="Basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas Practice/w3resource/Pandas Basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas Practice/w3resource/Pandas Basics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Advanced.executor": "Run",
-    "Python.Basic.executor": "Run",
-    "Python.Intermediate.executor": "Run",
-    "Python.Pandas Basics.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Intermediate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pandas Basics.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743355980682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1743368204978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743368204978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
