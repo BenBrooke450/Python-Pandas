@@ -257,6 +257,13 @@ print(df.head(10))
 
 
 
+df['classification_upper'] = df['classification'].apply(lambda x: x.upper())
+
+print(df)
+
+
+
+
 
 
 
