@@ -257,9 +257,44 @@ print(df.head(10))
 
 
 
+
 df['classification_upper'] = df['classification'].apply(lambda x: x.upper())
 
 print(df)
+"""
+    sepal length (cm)  ...  classification_upper
+1                  4.9  ...                   LOW
+2                  4.7  ...                   LOW
+3                  4.6  ...                   LOW
+6                  4.6  ...                  HIGH
+8                  4.4  ...                   LOW
+9                  4.9  ...                   LOW
+11                 4.8  ...                  HIGH
+12                 4.8  ...                   LOW
+13                 4.3  ...                   LOW
+22                 4.6  ...                  HIGH
+24                 4.8  ...                  HIGH
+29                 4.7  ...                  HIGH
+30                 4.8  ...                   LOW
+34                 4.9  ...                  HIGH
+37                 4.9  ...                  HIGH
+38                 4.4  ...                   LOW
+41                 4.5  ...                   LOW
+42                 4.4  ...                   LOW
+45                 4.8  ...                   LOW
+47                 4.6  ...                   LOW
+57                 4.9  ...                  HIGH
+106                4.9  ...                  HIGH
+
+[22 rows x 10 columns]
+"""
+
+
+
+
+
+
+
 
 
 
