@@ -2,7 +2,6 @@
 
 
 import pandas as pd
-from sklearn import datasets
 import numpy as np
 from sklearn.datasets import load_iris, fetch_california_housing
 
