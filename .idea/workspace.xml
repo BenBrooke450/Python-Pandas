@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="832c4612-e6c4-4e59-9363-3d0b357fdb63" name="Changes" comment="Basic">
+      <change afterPath="$PROJECT_DIR$/Pandas Practice/Playground/6.DAY(reset_index()).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pandas Practice/Playground/4.DAY(pop()).py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas Practice/Playground/4.DAY(pop()).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas Practice/Playground/5.DAY(iloc(),loc()).py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas Practice/Playground/5.DAY(iloc(),loc()).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,9 @@
     "Python.1.DAY.executor": "Run",
     "Python.2.DAY(groupby()).executor": "Run",
     "Python.3.DAY(shift()).executor": "Run",
+    "Python.4.DAY(pop()).executor": "Run",
     "Python.5.DAY(iloc(),loc()).executor": "Run",
+    "Python.6.DAY(reset_index()).executor": "Run",
     "Python.Advanced.executor": "Run",
     "Python.Basic.executor": "Run",
     "Python.Intermediate.executor": "Run",
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743966001609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744124030163</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744124030163</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
