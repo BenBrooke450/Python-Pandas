@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="832c4612-e6c4-4e59-9363-3d0b357fdb63" name="Changes" comment="Basic">
-      <change afterPath="$PROJECT_DIR$/Pandas Practice/Playground/7.DAY(value_counts(),unique()).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas Practice/Playground/8.DAY(shape,type()).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas Practice/Playground/10.DAY(Exercises).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas Practice/Playground/9.DAY(Most Common Functions).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,37 +40,36 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2umjGXWZ4lTQXMCVPkfaiC6KPQ1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.DAY(apply()).executor": "Run",
-    "Python.1.DAY.executor": "Run",
-    "Python.2.DAY(groupby()).executor": "Run",
-    "Python.3.DAY(shift()).executor": "Run",
-    "Python.4.DAY(pop()).executor": "Run",
-    "Python.5.DAY(iloc(),loc()).executor": "Run",
-    "Python.6.DAY(reset_index()).executor": "Run",
-    "Python.7.DAY(value_counts(),unique()).executor": "Run",
-    "Python.8.DAY(shape).executor": "Run",
-    "Python.Advanced.executor": "Run",
-    "Python.Basic.executor": "Run",
-    "Python.Intermediate.executor": "Run",
-    "Python.Pandas Basic DataFrame.executor": "Run",
-    "Python.Pandas Basics.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.DAY(apply()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.DAY.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.DAY(groupby()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.DAY(shift()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.DAY(pop()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.DAY(iloc(),loc()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.DAY(reset_index()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.DAY(value_counts(),unique()).executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.DAY(shape).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Intermediate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pandas Basic DataFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pandas Basics.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744322107084</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Basic">
+      <option name="closed" value="true" />
+      <created>1744550704473</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744550704473</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
